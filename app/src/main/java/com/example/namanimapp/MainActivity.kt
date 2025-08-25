@@ -38,7 +38,7 @@ fun NamaNimScreen(nama: String, nim: String) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text("Profil Mahasiswa", fontSize = 24.sp, fontWeight = FontWeight.Bold)
+        Text("Profile Mahasiswa", fontSize = 24.sp, fontWeight = FontWeight.Bold)
         Spacer(Modifier.height(16.dp))
         Text("NAMA: $nama", fontSize = 20.sp)
         Text("NIM: $nim", fontSize = 20.sp)
