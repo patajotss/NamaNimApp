@@ -40,7 +40,7 @@ fun NamaNimScreen(nama: String, nim: String) {
     ) {
         Text("Profil Mahasiswa", fontSize = 24.sp, fontWeight = FontWeight.Bold)
         Spacer(Modifier.height(16.dp))
-        Text("NAMA: $nama", fontSize = 20.sp)
-        Text("NIM: $nim", fontSize = 20.sp)
+        Text("Nama: $nama", fontSize = 20.sp)
+        Text("Nim : $nim", fontSize = 20.sp)
     }
 }
